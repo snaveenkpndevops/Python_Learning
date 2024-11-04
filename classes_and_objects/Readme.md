@@ -3,6 +3,7 @@ Classes and Object Learing Order:
 1. Class.py
 2. class_laptop_example.py
 3. class_basics1.py
+4. example1.py
 
 
 Note:
