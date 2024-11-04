@@ -32,6 +32,15 @@ classes Overview:
 
 
 
+# Classes Overview
+
+| Object | Properties         | Functions |
+|--------|---------------------|-----------|
+| Car    | color              | run       |
+| Bike   | weight             | brake     |
+| Eye    | EV or petrol       | Stop      |
+|        | brand              |           |
+|        | model              |           |
 
 
 
