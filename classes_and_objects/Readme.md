@@ -18,20 +18,6 @@ Reason: Why to use classes
 * also increase in code length.
 
 
-classes Overview:
-
------------------------------------------------------------------------------------------------
--    object       -             properties             -       functions                      -
------------------------------------------------------------------------------------------------
--    Car          -             color                  -       run                            -
--    Bike         -             weight                 -       brake                          -
--    Eye          -             Ev or petrol           -       Stop                           -
--                 -             brand                  -                                      -
--                 -             model                  -                                      -
------------------------------------------------------------------------------------------------
-
-
-
 # Classes Overview
 
 | Object | Properties         | Functions |
