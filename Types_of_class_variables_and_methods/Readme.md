@@ -78,7 +78,7 @@ college and place variable will not change.
 1. `Changing variable` should be define in `Instance Variable`.
 2. `Variable that doesn't change` should be consider as `class variable`.
 
-## Types of class methods ?
+## Types of class methods:
 
 1. Instance method
 2. Class method
@@ -128,10 +128,13 @@ In the above code:
 1. def display()  -->  It is a instance method, It will change based on the object.
 
 2.  @classmethod
+
     def change_collegename(cls):          -->  This is class method, which is rarely used. It will be same with different object.
 
 3. @staticmethod
-    def info():                                           --> This is static method [If we want a method (or) function that doesn't 
+
+    def info():        
+                                                          --> This is static method [If we want a method (or) function that doesn't 
         print(f"100% placement quarentee!!!")             -->   use class method or instance method. In this case we will use this method. ]
 
 
