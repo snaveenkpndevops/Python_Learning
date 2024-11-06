@@ -23,24 +23,24 @@ This Python script demonstrates a simple `College` class with an initializer and
 
 ## Code
 
-```python
-class college:
-   
-   def __init__(self):
-      print ("Please show your ID Card 🧑‍🎓👨‍🎓")
-
-   def mech(self):
-      print ("I am from mech dept")
-
-   def civil(self):
-      print ("I am from civil dept")
+    ```python
+    class college:
     
-# Creating instances of the College class
-student1 = college()             # Output: Please show your ID Card 🧑‍🎓👨‍🎓
-student1.mech()                  # Output: I am from mech dept     
+    def __init__(self):
+        print ("Please show your ID Card 🧑‍🎓👨‍🎓")
 
-student2 = college()             # Output: Please show your ID Card 🧑‍🎓👨‍🎓
-student2.civil()                 # Output: I am from civil dept
+    def mech(self):
+        print ("I am from mech dept")
+
+    def civil(self):
+        print ("I am from civil dept")
+        
+    # Creating instances of the College class
+    student1 = college()             # Output: Please show your ID Card 🧑‍🎓👨‍🎓
+    student1.mech()                  # Output: I am from mech dept     
+
+    student2 = college()             # Output: Please show your ID Card 🧑‍🎓👨‍🎓
+    student2.civil()                 # Output: I am from civil dept
 
 
 Purpose:
