@@ -5,6 +5,7 @@
 3. constructor_purpose1.py
 4. empty_class.py
 5. constructor_example.py
+6. calculator_example.py
 
 
 ### Note:
