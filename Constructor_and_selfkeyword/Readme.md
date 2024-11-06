@@ -20,18 +20,23 @@ For Ex:
 class college:
    
    def __init__(self):
+
       print ("Please show your ID Card 🧑‍🎓👨‍🎓")
 
    def mech(self):
+
       print ("I am from mech dept")
 
    def civil(self):
+
       print ("I am from civil dept")
     
 student1 = college()             # o/p:  Please show your ID Card 🧑‍🎓👨‍🎓
+
 student1.mech()                  # o/p:  I am from mech dept     
 
 student2 = college()             # o/p:  Please show your ID Card 🧑‍🎓👨‍🎓
+
 student2.civil()                 # o/p:  I am from civil dept
 
 
