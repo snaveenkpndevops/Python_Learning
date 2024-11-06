@@ -51,11 +51,11 @@ This Python script demonstrates a simple `College` class with an initializer and
 
 ### Constructor Definition:
 
-In python, a constructor is a special method used to initialize object of a class. The constructor method in python is called __init__. It is automatically invoked when a instance (object) of a class is created.
+In Python, a constructor is a special method used to initialize an object of a class. The constructor method in Python is called `__init__`. It is automatically invoked when an instance (object) of a class is created.
 
-* The Constructor method is defining using the def keyword followed by __init__.
+* The constructor method is defined using the `def` keyword followed by `__init__`.
+* It always takes at least one argument, `self`, which refers to the instance being created.
 
-* It always takes atleast one argument, self, which refers to the instance being created.
 
 
 
