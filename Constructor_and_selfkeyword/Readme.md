@@ -43,6 +43,11 @@ student2 = college()             # Output: Please show your ID Card 🧑‍🎓�
 student2.civil()                 # Output: I am from civil dept
 
 
+Purpose:
+
+1. The main purpose of a constructor is to initaize or assign values to the data members of that class.
+
+
 
 
 
