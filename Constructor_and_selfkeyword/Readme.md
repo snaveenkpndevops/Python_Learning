@@ -47,6 +47,7 @@ This Python script demonstrates a simple `College` class with an initializer and
 ### Purpose:
 
 1. The main purpose of a constructor is to initialize or assign values to the data members of that class.
+2. It sets up the initial state of the object.
 
 
 ### Constructor Definition:
