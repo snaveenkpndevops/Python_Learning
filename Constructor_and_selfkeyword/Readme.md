@@ -17,27 +17,31 @@ For Ex:
 4. If i create a object  student2 = college () then  def __init__(self) will be automatically called by the student2 object.
 
 
+# College Class Example
+
+This Python script demonstrates a simple `College` class with an initializer and methods representing different departments.
+
+## Code
+
+```python
 class college:
    
    def __init__(self):
-
       print ("Please show your ID Card 🧑‍🎓👨‍🎓")
 
    def mech(self):
-
       print ("I am from mech dept")
 
    def civil(self):
-
       print ("I am from civil dept")
     
-student1 = college()             # o/p:  Please show your ID Card 🧑‍🎓👨‍🎓
+# Creating instances of the College class
+student1 = college()             # Output: Please show your ID Card 🧑‍🎓👨‍🎓
+student1.mech()                  # Output: I am from mech dept     
 
-student1.mech()                  # o/p:  I am from mech dept     
+student2 = college()             # Output: Please show your ID Card 🧑‍🎓👨‍🎓
+student2.civil()                 # Output: I am from civil dept
 
-student2 = college()             # o/p:  Please show your ID Card 🧑‍🎓👨‍🎓
-
-student2.civil()                 # o/p:  I am from civil dept
 
 
 
