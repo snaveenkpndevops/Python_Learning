@@ -89,24 +89,28 @@ for Ex:
     ```python
 
     class college:
-    college_name = "OXFORD UNIVERSITY 🏫🏫"
-    place = "UK"
+        college_name = "OXFORD UNIVERSITY 🏫🏫"
+        place = "UK"
 
-    def __init__(self, name, dept):
-        self.name = name
-        self.dept = dept
+        # Constructor
+        def __init__(self, name, dept):
+            self.name = name
+            self.dept = dept
 
-    def display(self):
-        print (f"My name is {self.name}, am from {self.dept} department {self.college_name} {self.place}")
+        # This is Instance method [mostly used], It will change based on the object.
+        def display(self):
+            print (f"My name is {self.name}, am from {self.dept} department {self.college_name} {self.place}")
 
-    @classmethod
-    def change_collegename(cls):
-        cls.college_name = "Veltech Multitech Engineering College"
-        print (f"College name change to {cls.college_name}")
-
-    @staticmethod
-    def info():
-        print(f"100% placement quarentee!!!")
+        # This is class method, which is rarely used. It will be same with different object.
+        @classmethod
+        def change_collegename(cls):
+            cls.college_name = "Veltech Multitech Engineering College"
+            print (f"College name change to {cls.college_name}")
+        
+        # This is static method [If we want a method (or) function that doesn't use class method or instance method. In this case we will use this method. ]
+        @staticmethod
+        def info():
+            print(f"100% placement quarentee!!!")
 
 
     student1=college("naveen", "mech")
