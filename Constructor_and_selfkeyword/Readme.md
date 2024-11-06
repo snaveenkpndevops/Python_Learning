@@ -28,11 +28,11 @@ class college:
    def civil(self):
       print ("I am from civil dept")
     
-student1 = college()
-student1.mech()                        
+student1 = college()             # o/p:  Please show your ID Card 🧑‍🎓👨‍🎓
+student1.mech()                  # o/p:  I am from mech dept     
 
-student2 = college()
-student2.civil()
+student2 = college()             # o/p:  Please show your ID Card 🧑‍🎓👨‍🎓
+student2.civil()                 # o/p:  I am from civil dept
 
 
 
