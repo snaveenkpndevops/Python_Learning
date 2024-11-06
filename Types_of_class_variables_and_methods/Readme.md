@@ -1,7 +1,7 @@
 ## Constructor and Self Keyword Learing Order:
 
 1. Types_of_classvariable.py
-2. 
+2. Types_of_class_methods.py
 
 
 ### Note:
