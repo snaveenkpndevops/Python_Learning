@@ -9,7 +9,7 @@ Python Learing Order:
 7. Return Keyword
 8. Classes and Objects
 9. Construct and Self Keyword
-10. Types of class methods
+10. Types of class variables and methods
 11. Inheritance and its types
 12. Super Keyword in python
 13. Polymorphism in python
