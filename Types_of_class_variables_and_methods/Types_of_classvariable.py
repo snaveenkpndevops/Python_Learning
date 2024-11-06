@@ -54,3 +54,8 @@ student3.display()    # o/p: My name is angelina, am from english_literature dep
 # Here college_name and place --> This varaible that doesn't change even the object change (student1, student2, student3) is called class variable.
 # Here student1 can have diff name, dept and student2 can have diff name and dept but they are in same college.
 # college and place variable will not change.
+
+# Overall:
+
+# 1. `Changing variable` should be define in `Instance Variable`.
+# 2. `Variable that doesn't change` should be consider as `class variable`.
