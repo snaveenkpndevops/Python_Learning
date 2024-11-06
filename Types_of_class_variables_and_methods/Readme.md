@@ -134,9 +134,7 @@ In the above code:
 3. @staticmethod
 
     def info():        
-                                                          --> This is static method [If we want a method (or) function that doesn't 
-        print(f"100% placement quarentee!!!")             -->   use class method or instance method. In this case we will use this method. ]
-
+        print(f"100% placement quarentee!!!")     --> This is static method [If we want a method (or) function that doesn't use class method or instance method. In this case we will use this method. ]       
 
 
 
