@@ -1,10 +1,10 @@
-Constructor and Self Keyword Learing Order:
+## Constructor and Self Keyword Learing Order:
 
 1. constructor_basics.py
 2. constructor_purpose.py
 
 
-Note:
+# Note:
 
 what is constructor?
 
@@ -44,18 +44,18 @@ This Python script demonstrates a simple `College` class with an initializer and
     student2.civil()                 # Output: I am from civil dept
 
 
-Purpose:
+## Purpose:
 
 1. The main purpose of a constructor is to initialize or assign values to the data members of that class.
 
 
-Constructor Definition:
+## Constructor Definition:
 
-In python, a constructor is a special method used to initialize object of a class. The constructor method in python is called '__init__'. It is automatically invoked when a instance (object) of a class is created.
+In python, a constructor is a special method used to initialize object of a class. The constructor method in python is called __init__. It is automatically invoked when a instance (object) of a class is created.
 
-* The Constructor method is defining using the 'def' keyword followed by '__init__'.
+* The Constructor method is defining using the def keyword followed by __init__.
 
-* It always takes atleast one argument, 'self', which refers to the instance being created.
+* It always takes atleast one argument, self, which refers to the instance being created.
 
 
 
