@@ -6,14 +6,12 @@
 
 ### Note:
 
-Types of class variable ?
+## Types of class variable ?
 
 1. Instance Variable
 2. Class Variable
 
-Example for class variable:
-
-
+### Example for class variable:
 
 Note: 
 
@@ -49,15 +47,16 @@ Note:
 
 for ex:
 
-def __init__(self, name, dept):
-        self.name = name
-        self.dept = dept
+    ```python
+    def __init__(self, name, dept):
+            self.name = name
+            self.dept = dept
 
 Here `self.name, self.dept` is a `instance variable`. `self refers to student1, student2, student3`. The value of the 
 variable will get changed for every object like for student1 we have different value for each variable.
 That's why it is called Instance variable.
 
-Types of class methods ?
+## Types of class methods ?
 
 1. Instance method
 2. Class method
