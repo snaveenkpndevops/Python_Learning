@@ -4,7 +4,7 @@
 2. constructor_purpose.py
 
 
-# Note:
+### Note:
 
 what is constructor?
 
@@ -18,11 +18,11 @@ For Ex:
 4. If i create a object  student2 = college () then  def __init__(self) will be automatically called by the student2 object.
 
 
-# College Class Example
+## College Class Example
 
 This Python script demonstrates a simple `College` class with an initializer and methods representing different departments.
 
-## Code
+### Code
 
     ```python
     class college:
@@ -44,12 +44,12 @@ This Python script demonstrates a simple `College` class with an initializer and
     student2.civil()                 # Output: I am from civil dept
 
 
-## Purpose:
+### Purpose:
 
 1. The main purpose of a constructor is to initialize or assign values to the data members of that class.
 
 
-## Constructor Definition:
+### Constructor Definition:
 
 In python, a constructor is a special method used to initialize object of a class. The constructor method in python is called __init__. It is automatically invoked when a instance (object) of a class is created.
 
