@@ -137,7 +137,7 @@ Here son can inherits all the property from his father and grandfather. And Fath
 
  Here is an hierarchical Inheritance image:
 
-![Example Image](Images/hierarchical_Inheritance.png)   
+![Example Image](Images/hierarchical_inheritance.png)   
 
 Here son1, son2, son3 can inherits all the property from their father.
 
@@ -172,7 +172,7 @@ Here son1, son2, son3 can inherits all the property from their father.
     lee=son3()
     lee.money()      # o/p:  Dad's money....
     lee.laptop()     # o/p:  third son's laptop
-    
+
     ```
 
 ### 5. Hybrid Inheritance
