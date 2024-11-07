@@ -1,4 +1,4 @@
-Super Keyword learning Order:
+### Super Keyword learning Order:
 
 1. super_keyword.py
 2. super_keyword_1.py
@@ -101,8 +101,11 @@ But If i want both father and son constructor to be called while creating the ob
     ```
 
 In the below example we have `multiple inheritance`. son will inherit from father and mother. 
+
 super keyword  -->  This will inherit the parent constructor also but here it only takes father constructor because 
+
 in `class son (father, mom)  -->  father is first so the super keyword only consider the father constructor`
+
 if it is `class son (mom, father)   -->  mom is first so the super keyword only consider the mom constructor`
 
     ```
