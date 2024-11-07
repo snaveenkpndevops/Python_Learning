@@ -90,6 +90,47 @@ Here son can inherits all the property from his father and mother.
     ```
 
 ### 3. multi-level Inheritance
+
+ Here is an multi-level Inheritance image:
+
+![Example Image](Images/Multi_level_Inheritance.png)   
+
+Here son can inherits all the property from his father and grandfather. And Father can inherits all the property from his father (grandfather).
+
+    ```python
+    # Multi-level Inheritance
+    # Let's consider there is a father, grandfather and a son. Here son has all rights to use the father and grandfather wealth (money, car, home, business etc.).
+    # And father has all rights to use his father wealth (money, car, home, business etc.).
+
+    class grandfather():
+
+        def land(self):
+            print("grandpa's land....")
+
+    class father(grandfather):
+
+        def money(self):
+            print ("Dad's money....")
+
+    class son(father):
+
+        def bike(self):
+            print ("son's bike")
+
+
+    lee=father()
+    lee.land()       # o/p:  grandpa's land....
+    lee.money()      # o/p:  Dad's money....
+
+    jackie=son()
+    jackie.land()    # o/p:  grandpa's land....
+    jackie.money()   # o/p:  Dad's money....
+    jackie.bike()    # o/p:  son's bike
+
+
+    ```
+
+
 ### 4. hierarchical inheritance
 ### 5. Hybrid Inheritance
 
