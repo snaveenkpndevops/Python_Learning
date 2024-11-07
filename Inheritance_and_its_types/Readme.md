@@ -1,8 +1,10 @@
 # Inheritance_and_its_types Learing Order:
 
 1. Single_Inheritance.py
-2. return_ex1.py
-3. return_ex2.py
+2. Multiple_Inheritance.py
+3. Multi_level_Inheritance.py
+4. hierarchical inheritance.py
+5. Hybrid_Inheritance.py
 
 
 ## Note:
@@ -132,6 +134,47 @@ Here son can inherits all the property from his father and grandfather. And Fath
 
 
 ### 4. hierarchical inheritance
+
+ Here is an hierarchical Inheritance image:
+
+![Example Image](Images/hierarchical_Inheritance.png)   
+
+Here son1, son2, son3 can inherits all the property from their father.
+
+    ```python
+    # hierarchical Inheritance
+    # Let's consider there is a father, son1, son2 and son3. Here son's has all rights to use their father wealth (money, car, home, business etc.).
+
+    class father():
+        def money(self):
+            print ("Dad's money....")
+
+    class son1(father):
+        def bike(self):
+            print ("first son's bike")
+
+    class son2(father):
+        def gold(self):
+            print ("second son's gold")
+
+    class son3(father):
+        def laptop(self):
+            print ("third son's laptop")
+
+    jackie=son1()
+    jackie.money()   # o/p:  Dad's money....
+    jackie.bike()    # o/p:  first son's bike
+
+    tony=son2()
+    tony.money()     # o/p:  Dad's money....
+    tony.gold()      # o/p:  second son's gold
+
+    lee=son3()
+    lee.money()      # o/p:  Dad's money....
+    lee.laptop()     # o/p:  third son's laptop
+    
+    ```
+
 ### 5. Hybrid Inheritance
 
 
