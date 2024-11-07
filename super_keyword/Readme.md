@@ -6,7 +6,7 @@
 4. super_keyword_3.py
 
 
-Note:
+### Note:
 
 ### when to use super Keyword?
 
@@ -100,13 +100,13 @@ But If i want both father and son constructor to be called while creating the ob
 
     ```
 
-In the below example we have `multiple inheritance`. son will inherit from father and mother. 
+* In the below example we have `multiple inheritance`. son will inherit from father and mother. 
 
-super keyword  -->  This will inherit the parent constructor also but here it only takes father constructor because 
+* super keyword  -->  This will inherit the parent constructor also but here it only takes father constructor because 
 
-in `class son (father, mom)  -->  father is first so the super keyword only consider the father constructor`
+* In `class son (father, mom)  -->  father is first so the super keyword only consider the father constructor`
 
-if it is `class son (mom, father)   -->  mom is first so the super keyword only consider the mom constructor`
+* If it is `class son (mom, father)   -->  mom is first so the super keyword only consider the mom constructor`
 
     ```
     class mom():
